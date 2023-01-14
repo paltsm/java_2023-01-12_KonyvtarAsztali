@@ -1,4 +1,4 @@
-package com.example.konyvtarasztali;
+package org.example.konyvtarasztali;
 
 public class Konyv {
 	private int id;

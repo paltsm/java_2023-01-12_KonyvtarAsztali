@@ -4,6 +4,6 @@ module com.example.konyvtarasztali {
 	requires java.sql;
 
 
-	opens com.example.konyvtarasztali to javafx.fxml;
-	exports com.example.konyvtarasztali;
+	opens org.example.konyvtarasztali to javafx.fxml;
+	exports org.example.konyvtarasztali;
 }

@@ -1,4 +1,4 @@
-package com.example.konyvtarasztali;
+package org.example.konyvtarasztali;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;

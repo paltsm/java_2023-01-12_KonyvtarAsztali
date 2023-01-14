@@ -1,4 +1,4 @@
-package com.example.konyvtarasztali;
+package org.example.konyvtarasztali;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ public class KonyvDB {
 
 	public List<Konyv> konyvlistaz() throws SQLException {
 		List<Konyv> konyvek = new ArrayList<>();
-		String sql = "SELECT * FROM konyvtar";
+		String sql = "SELECT * FROM books";
 		Statement stmt = conn.createStatement();
 		ResultSet result = stmt.executeQuery(sql);
 		while (result.next()) {

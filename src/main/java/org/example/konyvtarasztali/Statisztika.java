@@ -1,8 +1,4 @@
-package com.example.konyvtarasztali;
-
-import javafx.application.Platform;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
+package org.example.konyvtarasztali;
 
 import java.sql.SQLException;
 import java.util.*;
