@@ -19,7 +19,7 @@ public class App extends Application {
 
 	@Override
 	public void start(Stage stage) throws IOException {
-		FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("konyv-view.fxml"));
+		FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("Konyv-view.fxml"));
 		Scene scene = new Scene(fxmlLoader.load(), 800, 600);
 		stage.setTitle("könyvtár");
 		stage.setScene(scene);

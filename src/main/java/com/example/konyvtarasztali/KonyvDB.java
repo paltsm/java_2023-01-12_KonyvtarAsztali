@@ -37,7 +37,7 @@ public class KonyvDB {
 	}
 
 	public boolean konyvTorlese(Konyv konyv) throws SQLException {
-		String sql = "DELETE FROM tabla WHERE id = ?";
+		String sql = "DELETE FROM konyvtar WHERE id = ?";
 		PreparedStatement stmt = conn.prepareStatement(sql);
 		stmt.setInt(1, konyv.getId());
 		return stmt.executeUpdate() > 0;
